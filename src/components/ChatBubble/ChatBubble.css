@@ -1,0 +1,37 @@
+.chat-bubble {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    max-width: 60%;
+}
+
+.chat-bubble.user {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.chat-bubble.bot {
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.chat-bubble .icon {
+    margin: 0 10px;
+}
+
+.chat-bubble .message {
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+}
+
+.chat-bubble.user .message {
+    background-color: #586f7c;
+    color: white;
+}
+
+.chat-bubble.bot .message {
+    background-color: #586f7c;
+    color: white;
+}
